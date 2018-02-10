@@ -1,0 +1,24 @@
+{
+  "name": "io.zdp.wallet.mobile",
+  "displayName": "Wallet",
+  "version": "1.0.0",
+  "description": "ZDP Wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ZDP Team",
+  "license": "MIT",
+  "dependencies": {
+    "cordova-browser": "^5.0.3",
+    "cordova-plugin-whitelist": "^1.3.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "browser"
+    ]
+  }
+}
